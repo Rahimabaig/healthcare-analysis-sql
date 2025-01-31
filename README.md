@@ -1,34 +1,51 @@
 # Healthcare-analysis-sql
 This repository contains SQL queries for analyzing healthcare data using Google Big Query, covering patient insights, treatment trends, and medical statistics
+[**Click here for DataSource**](https://www.kaggle.com/datasets/prasad22/healthcare-dataset/data)
 
 
 ##  Objectives
-- *Patient Stay Analysis*
-- *Revenue & Billing Patterns*
-- *Seasonal Trends*
-- *Insurance Provider Billing Practices*
-- *Disease Outbreak Analysis*
-- *Recovery Rate & Predictive Analysis* 
+- [*Patient Stay Analysis*](https://github.com/Rahimabaig/healthcare-analysis-sql/blob/main/visualizations/query1_visualization.png)
+- [*Revenue & Billing Patterns*](https://github.com/Rahimabaig/healthcare-analysis-sql/blob/main/visualizations/query2_visualization.png)
+- [*Seasonal Trends*](https://github.com/Rahimabaig/healthcare-analysis-sql/blob/main/visualizations/query3_visualization.png)
+- [*Insurance Provider Billing Practices*](https://github.com/Rahimabaig/healthcare-analysis-sql/blob/main/visualizations/query4_visualization.png)
+- [*Disease Outbreak Analysis*](https://github.com/Rahimabaig/healthcare-analysis-sql/blob/main/visualizations/query5_visualization.png)
+- [*Recovery Rate & Predictive Analysis*](https://github.com/Rahimabaig/healthcare-analysis-sql/blob/main/visualizations/query6_visualization.png)
   
 
 ## Technologies Used
-- **Google BigQuery** – Used for storing, querying, and analyzing large-scale healthcare data efficiently.
-- **Google Sheets** – Used for data visualization, creating charts, and summarizing insights for easy interpretation.
+- *Google BigQuery* – Used for storing, querying, and analyzing large-scale healthcare data efficiently.
+- *Google Sheets* – Used for data visualization, creating charts, and summarizing insights for easy interpretation.
 
 
-##  Insights & Findings
-1) *Optimizing Treatment for Chronic Illness*: Asthma patients have the longest hospital stays, highlighting the need for improved medication strategies and enhanced recovery processes to reduce overcrowding.
-  
-2) *Financial Strategy for Healthcare Leaders*: Johnson PLC generates the highest revenue ($1,084,203), offering CFOs critical insights into revenue streams for cost-efficient planning without compromising care quality.
-  
-3) *Seasonal Demand & Resource Allocation*: Patient admissions peak in summer, enabling hospitals to preemptively optimize beds, staffing, and emergency preparedness, while policymakers raise awareness on preventive healthcare.
+##  Insights & Findings 
 
-4) *Insurance Billing Patterns & Patient Guidance*: Blue Cross has the highest billing threshold ($52,764.28), likely covering high-cost treatments, while Aetna has the lowest ($2,008.49), indicating minimal coverage or claims deductions.
+*Patient Stay Analysis*  
+- Asthma patients have the longest hospital stays.  
+- Recommendation: Improve medication strategies to reduce overcrowding.  
 
-5) *Disease Outbreak Monitoring for 2024*: Arthritis is the most prevalent disease, affecting 50.43% males and 49.57% females, guiding healthcare officials in treatment planning and vaccination strategies.
+*Revenue Trends*  
+- Johnson PLC generates the highest revenue ($1,084,203).  
+- Insight: Helps CFOs strategize financial planning while ensuring quality care.  
 
-6) *Predictive Recovery Insights by Demographics*: Senior males exhibit the highest recovery rate, while young adult females recover slower—helping doctors tailor treatment approaches and refine predictive patient care models.
+*Seasonal Admission Trends* 
+- Summer sees the highest admissions.
+- Insight: Optimize hospital resources, beds, and staffing before peak season.  
 
-**These insights demonstrate data-driven decision-making, making hospitals stratgizes policies stronger, ensuring high quality patient care.** 
+*Billing Patterns Across Hospitals*  
+- Blue Cross has the highest billing threshold ($52,764.28), indicating expensive treatments.  
+- Aetna has the lowest billing amount ($2,008.49), covering minimal claims.  
+- Helps patients choose the right insurance provider.  
+
+*Disease Outbreaks*  
+- Arthritis is the most widespread disease in 2024.  
+- Insight: Healthcare officials can plan vaccinations & treatment strategies.
+
+*Recovery Rate Trends*  
+- Senior males have the highest recovery rate, while young adult females recover slower.  
+- Insight: Helps doctors personalize treatment based on age and gender. 
+
+
+*These insights demonstrate data-driven decision-making, making hospitals stratgizes policies stronger, ensure quality care.*
+
 
 
